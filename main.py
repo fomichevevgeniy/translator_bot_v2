@@ -7,7 +7,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from database import save_data, get_history
 from configs import LANGUAGES
-TOKEN = '5483050351:AAEsECspsYimZjvwsG-6vgYrb41CEV73SbQ'
+TOKEN = 'TOKEN HERE'
 bot = Bot(TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
